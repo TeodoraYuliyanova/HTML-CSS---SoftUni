@@ -1,0 +1,26 @@
+body,ul,li{
+    display: flex;
+}
+
+body{
+    background-color: lightgrey;
+    padding: 50px;
+}
+
+ul{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+section{
+    flex-direction: column;
+    max-width: 40vw;
+}
+
+li{
+    border: 12px solid black;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px;
+}
