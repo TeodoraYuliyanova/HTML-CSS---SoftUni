@@ -1,0 +1,88 @@
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    max-width: 80vw;
+    padding: 30px 50px;
+}
+
+main{
+    width: 82%;
+}
+
+img{
+    background-color:  rgb(255, 255, 255);
+    border: 4px solid black;
+    align-items: center;
+    padding: 5px;
+}
+
+h1,h2{
+    font-family: Georgia, serif;
+}
+
+aside a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+
+h1{
+    text-transform: uppercase;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid rgb(0,0,0);
+}
+
+.first-image{
+    float: right;
+    margin-left: 20px;
+    margin-right: 140px;
+}
+
+.second-image{
+    float: left;
+    margin-right: 20px;
+}
+
+.paragraph,blockquote{
+    display: inline-flex;
+}
+
+.paragraph{
+    width: 50%;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: lightslategray;
+    width: 40%;
+    border: 1px;
+    border-left: 3px solid lightgrey;
+    margin-left: 20px;
+}
+
+blockquote.name{
+    /* align-self: flex-end; */
+    margin: 10px 0px;
+}
+/* 
+blockquote.text{
+    align-self: flex-start;
+} */
+
+blockquote p{
+    /* margin: 0px; */
+    padding-left: 20px;
+}
+
+
+
+
