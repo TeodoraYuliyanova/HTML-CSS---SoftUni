@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.cards-layout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.card{
+    border: 2px solid lightslategrey;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+img{
+    object-fit: cover;
+}
+
+footer{
+    border-top: 2px solid lightgrey;
+}
